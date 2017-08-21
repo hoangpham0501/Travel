@@ -1,0 +1,112 @@
+.icon{
+    float: left;
+    clear: both;
+    margin: 0;
+}
+.icon img{
+    width: 120px;
+    height: 27px;
+    margin: 14px 20px 14px 0;
+}
+.header{
+    width: 100%;
+    height: 52px;
+    background-color: #fff;
+    margin: 0;
+    position:fixed;
+    top: 0;
+    z-index: 51;
+    border-bottom: 1px solid #ddd;
+}
+.header-toolbar{
+    width: 1170px;
+    height: inherit;
+    margin: 0px auto;
+    display: block;
+}
+.header-toolbar ul{
+    list-style: none;
+    height: 34px;
+    margin: 8px 0px;
+    float:right;
+    border: 0.5px solid #ddd;
+    border-radius: 8px;
+}
+.header-toolbar li{
+    /*width: 91px;*/
+    padding: 5px 10px;
+    float: left;
+    text-align: center;
+}
+.header-toolbar li:first-child{
+    border-right: 0.5px solid #ddd;
+}
+.header-toolbar li a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #666;
+}
+.searchbar{
+    /*z-index: 1;*/
+    margin: 8px 8px 8px 0px;
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.searchbox:hover,.searchbox:focus{
+    border: 1px solid #00C368;
+}
+.searchbar #btn_search{
+    margin: 0;
+    height: 34px;
+    padding: 9px 14.4px;
+    border-radius: 0 5px 5px 0;
+    background-color: #19D77E;
+    transition: all 0.5s ease;
+    color: #eee;
+}
+.searchbar #btn_search:hover{
+    background-color: #16A864;
+    text-shadow: 0.5px 0.5px #ddd;
+    color: #fff;
+}
+.searchbox{
+    border: none;
+    border-radius: 2px;
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    height: 34px;
+    float: left;
+    padding: 7px 0 7px 7px;
+    width: 320px;
+    margin: 0;
+    border: 0.5px solid #ddd;
+}
+.glyphicon-search{
+    font-size: 14px;
+}
+ .dropdown .btn{
+    width: 84px;
+    padding: 0;
+    color: #666;
+        overflow: hidden;
+    text-overflow: ellipsis;
+
+ }
+
+ .dropdown-cate{
+    float: left;
+    width: 200px;
+    padding: 9px;
+    /*text-align: center;*/
+ }
+ .dropdown-cate select{
+   height: 34px;
+   /*padding: 0 8px;*/
+   text-align: center;
+   width: 200px;
+ }
